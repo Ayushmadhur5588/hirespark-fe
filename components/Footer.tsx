@@ -82,7 +82,7 @@ const Footer = () => {
             Our Story
           </div>
           <div className="p-1 cursor-pointer flex-start text-slate-500 hover:text-blue-500">
-            Out Team
+            Our Team
           </div>
           <div className="p-1 cursor-pointer flex-start text-slate-500 hover:text-blue-500">
             Press

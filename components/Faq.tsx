@@ -7,7 +7,7 @@ const Faq = () => {
   const [isOpen, setIsOpen] = useState<number | null>(0);
 
   return (
-    <div className="">
+    <div className="my-20 py-10">
       <h2 className="font-semibold text-6xl flex justify-center py-5">
         Everything you need to know.
       </h2>
