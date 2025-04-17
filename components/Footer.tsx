@@ -99,28 +99,7 @@ const Footer = () => {
             Copyright &copy; 2025 Hirespark All rights reserved.
           </p>
 
-          <ul className="mt-8 flex flex-wrap justify-start gap-4 text-sm sm:mt-0 lg:justify-end">
-            <li>
-              <a href="#" className="text-gray-500 transition hover:opacity-75">
-                {" "}
-                Terms & Conditions{" "}
-              </a>
-            </li>
-
-            <li>
-              <a href="#" className="text-gray-500 transition hover:opacity-75">
-                {" "}
-                Privacy Policy{" "}
-              </a>
-            </li>
-
-            <li>
-              <a href="#" className="text-gray-500 transition hover:opacity-75">
-                {" "}
-                Cookies{" "}
-              </a>
-            </li>
-          </ul>
+          <p className="text-sm text-gray-500">Designed with ❤️ by AMJ</p>
         </div>
       </div>
     </div>
