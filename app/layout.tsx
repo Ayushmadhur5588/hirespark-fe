@@ -4,6 +4,7 @@ import "./globals.css";
 import Footer from '@/components/Footer'
 import Faq from "@/components/Faq";
 import Metrics from "@/components/Metrics";
+import PowerfulFeature from "@/components/PowerfulFeature";
 
 
 const geistSans = Geist({
@@ -30,6 +31,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
+        <PowerfulFeature />
         <Metrics />
         <Faq />
         <Footer />
