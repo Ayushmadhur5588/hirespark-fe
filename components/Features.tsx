@@ -30,21 +30,21 @@ const Features = () => {
           </div>
         </div>
         <div className="cols-span-1">
-          <Image src={Feature1} alt="Img_1" className="p-5"/>
+          <Image src={Feature1} alt="Img_1" className="p-5" />
         </div>
       </div>
       <div className="grid grid-cols-2 mx-auto mt-24">
-      <div className="cols-span-1">
-          <Image src={Feature2} alt="Img_1" className="p-5"/>
+        <div className="cols-span-1">
+          <Image src={Feature2} alt="Img_1" className="p-5" />
         </div>
         <div className="cols-span-1 p-5 my-5">
           <div className="text-center text-5xl">
-            Automated Candidate Ranking
+            Real-Time Applicant Analytics
           </div>
           <div className="py-10  text-center text-xl text-slate-500 font-light">
             Let AI analyze and rank applicants based on qualifications,
             experience, and skills, ensuring you focus on the most promising
-            candidates first
+            candidates first.
           </div>
           <div className="flex justify-center">
             <button className="p-4 border-2 border-blue-700 rounded-lg text-blue-700">
@@ -52,7 +52,6 @@ const Features = () => {
             </button>
           </div>
         </div>
-        
       </div>
     </div>
   );
