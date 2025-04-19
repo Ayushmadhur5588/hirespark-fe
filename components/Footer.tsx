@@ -99,7 +99,7 @@ const Footer = () => {
             Copyright &copy; 2025 Hirespark All rights reserved.
           </p>
 
-          <p className="text-sm text-gray-500">Designed with ❤️ by AMJ</p>
+          <p className="text-sm text-gray-500">Designed with ❤️ by Ayush</p>
         </div>
       </div>
     </div>

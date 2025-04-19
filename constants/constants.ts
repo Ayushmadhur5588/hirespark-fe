@@ -4,7 +4,25 @@ import powerfulFeature3 from "@/public/asset 40.svg";
 import powerfulFeature4 from "@/public/asset 41.svg";
 import powerfulFeature5 from "@/public/asset 42.svg";
 import powerfulFeature6 from "@/public/asset 43.svg";
+import Company1 from "@/public/asset 47.svg";
+import Company2 from "@/public/asset 48.svg";
+import Company3 from "@/public/asset 49.svg";
+import Company4 from "@/public/asset 50.svg";
+import Company5 from "@/public/asset 51.svg";
+import Company6 from "@/public/asset 52.svg";
+import Company7 from "@/public/asset 53.svg";
+import Company8 from "@/public/asset 54.svg";
 
+export const marquee = [
+  { id: 1, img: Company1 },
+  { id: 2, img: Company2 },
+  { id: 3, img: Company3 },
+  { id: 4, img: Company4 },
+  { id: 5, img: Company5 },
+  { id: 6, img: Company6 },
+  { id: 7, img: Company7 },
+  { id: 8, img: Company8 },
+];
 
 export const powerfulFeatures = [
   {
@@ -50,8 +68,6 @@ export const powerfulFeatures = [
     icon: powerfulFeature6,
   },
 ];
-
-
 
 export const faq = [
   {
