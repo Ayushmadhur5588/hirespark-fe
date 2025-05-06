@@ -95,3 +95,58 @@ export const faq = [
       "All individual Framer subscriptions have been grandfathered into a Pro plan at your existing rate. If you were on a Small Team plan, then all 5 seats have been converted over to Pro seats at your existing rate. Regardless of your subscription plan, all new paid editors that you add to your subscription will be billed at the new plan rates.",
   },
 ];
+
+
+export const Resources = [
+  { id: 1, name: "Blog", href: "#" },
+  { id: 2, name: "Apps", href: "#" },
+  { id: 3, name: "Learn", href: "#" },
+  { id: 4, name: "Integrations", href: "#" },
+  { id: 5, name: "Careers", href: "#" },
+];
+export const Company = [
+  { id: 1, name: "Our Story", href: "#" },
+  { id: 2, name: "Our Team", href: "#" },
+  { id: 3, name: "Press", href: "#" },
+  { id: 4, name: "Contact", href: "#" },
+];
+
+export const Plan = [
+  {
+    name: "Starter",
+    price: "$19/mo",
+    features: [
+      "For individuals",
+      "1,000 API Calls/month",
+      "Email customer support",
+      "Storage 500MB",
+      "AI Models: 5/month",
+    ],
+    cta: "Get Started",
+  },
+  {
+    name: "Pro",
+    price: "$29/mo",
+    features: [
+      "2-10 Members",
+      "10,000 API Calls/month",
+      "Chat customer support",
+      "Storage 1GB",
+      "AI Models: 15/month",
+    ],
+    cta: "Get Started",
+  },
+  {
+    name: "Team",
+    price: "$49/mo",
+    features: [
+      "10+ Members",
+      "100,000 API Calls/month",
+      "Phone customer support",
+      "Storage 5GB",
+      "AI Models: 25/month",
+    ],
+    cta: "Get Started",
+  },
+];
+
