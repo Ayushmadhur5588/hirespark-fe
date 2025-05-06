@@ -1,4 +1,4 @@
-import Logo from "../public/Logo.png";
+import Logo from "../public/logo.svg";
 import Image from "next/image";
 import { Twitter, Instagram, Linkedin, Github, Facebook } from "lucide-react";
 
@@ -7,7 +7,7 @@ const Footer = () => {
     <div>
       <div className="grid grid-cols-12 p-10">
         <div className="mx-10 w-[45%] col-span-6">
-          <Image src={Logo} alt="Logo" className="w-20 h-20" />
+          <Image src={Logo} alt="Logo"/>
           <p className="my-7 text-slate-500 font-light text-lg">
             Significantly enhance your screening and recruitment procedures
           </p>
@@ -37,15 +37,7 @@ const Footer = () => {
               <Instagram className="text-gray-500" size={20} />
             </a>
             <a
-              href="https://twitter.com/ayush_5588"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-blue-500 hover:underline"
-            >
-              <Facebook className="text-gray-500" size={20} />
-            </a>
-            <a
-              href="https://twitter.com/ayush_5588"
+              href="https://www.linkedin.com/in/ayush-bhardwaj-799573166/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-blue-500 hover:underline"

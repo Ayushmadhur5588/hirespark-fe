@@ -1,33 +1,43 @@
-import Counter from "./Counter";
+import { Badge } from "./badge";
+import * as motion from "framer-motion/client";
 
-const Metrics = () => {
+export function Metrics() {
   return (
-    <div className="my-10 py-10">
-      <h2 className="flex justify-center text-4xl font-medium">
+    <motion.div
+      initial={{ y: 100, opacity: 0 }}
+      whileInView={{ y: 0, opacity: 1 }}
+      transition={{ staggerChildren: 0.5 }}
+      viewport={{ once: true }}
+      className="flex flex-col justify-center items-center my-16 space-y-5 py-16"
+    >
+      <Badge label="MATRICS" />
+
+      <p className="font-secondary-font text-3xl text-center font-medium">
         Numbers speaking for themselves
-      </h2>
-      <div className="grid grid-cols-3 text-center my-10">
-        <div>
-          <Counter value={75} suffix="%" />
-          <p className="text-2xl text-slate-500 font-extralight">
+      </p>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 justify-between items-center gap-28 xl:divide-x-2">
+        <div className="text-center space-y-4 p-5 flex items-center flex-col justify-center">
+          <p className="font-primary-font text-7xl text-[#573CFF]">75%</p>
+          <p className="font-primary-font text-xl text-slate-600">
             Candidate match rate
           </p>
         </div>
-        <div className="border-x-2 border-gray-200">
-          <Counter value={4000} suffix="+" />
-          <p className="text-2xl text-slate-500 font-extralight">
+
+        <div className="text-center space-y-4 p-5 flex items-center flex-col justify-center">
+          <p className="font-primary-font text-7xl text-[#573CFF]">4000+</p>
+          <p className="font-primary-font text-xl text-slate-600">
             Candidate match rate
           </p>
         </div>
-        <div>
-          <Counter value={50} suffix="+" />
-          <p className="text-2xl text-slate-500 font-extralight">
+
+        <div className="text-center space-y-4 p-5 flex items-center flex-col justify-center">
+          <p className="font-primary-font text-7xl text-[#573CFF]">50+</p>
+          <p className="font-primary-font text-xl text-slate-600">
             Candidate match rate
           </p>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
-};
-
-export default Metrics;
+}
