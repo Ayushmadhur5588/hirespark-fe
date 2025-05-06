@@ -1,6 +1,6 @@
 import Logo from "../public/logo.svg";
 import Image from "next/image";
-import { Twitter, Instagram, Linkedin, Github, Facebook } from "lucide-react";
+import { Twitter, Instagram, Linkedin, Github } from "lucide-react";
 
 const Footer = () => {
   return (

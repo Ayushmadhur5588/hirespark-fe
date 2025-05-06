@@ -1,6 +1,6 @@
 import { CTA } from "@/components/cta";
 import FeatureHero from "@/components/features/feature-hero";
-import  Features  from "@/components/Features";
+import  {Features}  from "@/components/Features";
 import  PowerfulFeature  from "@/components/PowerfulFeature";
 
 export default function FeaturePage() {
