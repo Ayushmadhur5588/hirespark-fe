@@ -1,7 +1,6 @@
 "use client";
 
 import { Plus, Minus } from "lucide-react";
-import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
 type FaqProps = {

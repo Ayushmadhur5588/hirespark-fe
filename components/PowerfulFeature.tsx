@@ -1,5 +1,4 @@
 import { powerfulFeatures } from "@/constants/constants";
-import Image from "next/image";
 import PowerfulFeatureCard from "./PowerfulFeatureCard";
 interface inputType {
   title: string;
