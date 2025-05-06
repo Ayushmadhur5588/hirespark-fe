@@ -6,6 +6,14 @@ import FaqSection from "./FaqSection";
 const Faq = () => {
   const [isOpen, setIsOpen] = useState<number | null>(0);
 
+  const handleToggle = (id: number) => {
+    if (isOpen === id) {
+      setIsOpen(null);
+    } else {
+      setIsOpen(id);
+    }
+  };
+
   return (
     <div className="my-20 py-10">
       <h2 className="font-semibold text-6xl flex justify-center py-5">
@@ -19,14 +27,11 @@ const Faq = () => {
         <FaqSection
           key={data.id}
           data={data}
-          isOpen={isOpen === data.id? isOpen : null}
-          setIsOpenItem={() => {
-            isOpen === data.id ? setIsOpen(null) : setIsOpen(data.id);
-          }}
+          isOpen={isOpen === data.id ? isOpen : null}
+          setIsOpenItem={() => handleToggle(data.id)}
         />
       ))}
     </div>
   );
 };
-
 export default Faq;

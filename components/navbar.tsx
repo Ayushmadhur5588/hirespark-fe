@@ -27,14 +27,14 @@ export function Navbar() {
       className="flex justify-between items-center bg-transparent backdrop-blur-md px-5 md:px-10 xl:px-20 py-4 sticky top-0 left-0 z-50 hover:bg-white bg-opacity-10 transition-all group"
     >
       <Link href={"/"}>
-      <Image
-      src={Logo}
-        alt="Logo"
-        width={120} // Adjust size
-        height={48} // Adjust size
-        className="object-contain" // Optional: Maintain aspect ratio
-       // placeholder="blur" // Optional: Better UX
-      />
+        <Image
+          src={Logo}
+          alt="Logo"
+          width={120} // Adjust size
+          height={48} // Adjust size
+          className="object-contain" // Optional: Maintain aspect ratio
+          // placeholder="blur" // Optional: Better UX
+        />
       </Link>
 
       <div className="hidden xl:flex items-center gap-8 ">

@@ -1,10 +1,5 @@
 import { powerfulFeatures } from "@/constants/constants";
 import PowerfulFeatureCard from "./PowerfulFeatureCard";
-interface inputType {
-  title: string;
-  description: string;
-  icon: string;
-}
 
 const PowerfulFeature = () => {
   return (
@@ -16,8 +11,8 @@ const PowerfulFeature = () => {
         Gain valuable data-driven insights into talent markets worldwide
       </div>
 
-     {/* 🟢 Grid on parent */}
-     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-36">
+      {/* 🟢 Grid on parent */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-36">
         {powerfulFeatures.map((p) => (
           <PowerfulFeatureCard key={p.id} data={p} />
         ))}
