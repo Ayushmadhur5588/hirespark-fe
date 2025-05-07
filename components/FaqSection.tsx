@@ -17,7 +17,7 @@ const FaqSection = ({ data, isOpen, setIsOpenItem }: FaqProps) => {
   return (
     <div className="py-3">
       <div
-        className="cursor-pointer font-normal p-3 border border-gray-300 rounded-lg w-1/2 mx-auto"
+        className="cursor-pointer font-normal p-3 border border-gray-300 rounded-lg lg:w-1/2 md:w-1/2 w-[80%] mx-auto"
         onClick={setIsOpenItem}
       >
         <div className="flex justify-between">
