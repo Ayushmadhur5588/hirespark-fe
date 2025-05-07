@@ -6,11 +6,11 @@ const Footer = () => {
   return (
     <div>
       
-      <div className="grid grid-cols-1 md:grid-cols-12 p-5 md:p-10">
+      <div className="grid grid-cols-1 md:grid-cols-12 m-5 md:p-10">
 
         <div className="mx-5 md:mx-10 w-full md:w-[45%] col-span-1 md:col-span-6">
           <Image src={Logo} alt="Logo" />
-          <p className="my-5 md:my-7 text-slate-500 font-light text-base md:text-lg">
+          <p className="my-5 md:my-7 mr-4 text-slate-500 font-light text-base md:text-lg">
             Significantly enhance your screening and recruitment procedures
           </p>
           <div className="flex space-x-2 md:space-x-0 md:justify-between">
