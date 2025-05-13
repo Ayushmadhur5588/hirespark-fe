@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "HireSprak",
+  title: "HireSpark",
   description: "Animated landing page done with Framer Motion",
 };
 
